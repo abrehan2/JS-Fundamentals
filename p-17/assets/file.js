@@ -9,7 +9,6 @@ const messages = [
 ]
 
 btn.addEventListener('click', () => Notification('Message'));
-
 function Notification(x = null)
 {
     const notif = document.createElement('div')
