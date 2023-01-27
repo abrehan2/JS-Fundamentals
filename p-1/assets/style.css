@@ -15,11 +15,9 @@ body{
     margin: 0;
 }
 
-
 .container{
     display: flex;
-    width: 90vw;
- 
+    width: 90vw; 
 }
 
 .panel{
@@ -43,7 +41,6 @@ body{
     margin: 0;
     opacity: 0;
 }
-
 
 .panel.active{
     flex: 5
