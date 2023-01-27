@@ -9,13 +9,11 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
 
 .container{
     text-align: center;
-
 }
 
 .progress-container{
@@ -38,8 +36,7 @@ body{
     width: 100%;
     transform: translateY(-50%);
     z-index: -1;
-    ;
-    }
+        }
 
 .circle{
     background-color: #fff;
@@ -53,9 +50,6 @@ body{
     border: 3px solid #3498db;
     transition: .4s ease;
 }
-
-
-
 
 .progress{
 background-color: #3498db;
