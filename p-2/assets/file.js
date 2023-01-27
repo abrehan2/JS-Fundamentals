@@ -2,7 +2,6 @@ const progress = document.getElementById("progress");
 const prev = document.getElementById("prev");
 const next = document.getElementById("next");
 const circles = document.querySelectorAll(".circle");
-
 let active = 1;
 
 next.addEventListener("click", () => {
@@ -31,7 +30,7 @@ update();
 
 function update()
 {
-    circles.forEach((circle, idx)=>{
+circles.forEach((circle, idx)=>{
 
 if(idx < active)
 {
@@ -41,8 +40,6 @@ else
 {
     circle.classList.remove("active");
 }
-
-
     });
 
     const actives = document.querySelectorAll(".active");
