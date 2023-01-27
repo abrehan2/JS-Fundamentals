@@ -4,7 +4,6 @@ const percentage = document.getElementById("percentage");
 const remained = document.getElementById("remained");
 
 update_cup();
-
 small_cups.forEach(function(cup, index)
 {
 cup.addEventListener('click', () => highlight_cups(index));
@@ -17,8 +16,6 @@ if(small_cups[x].classList.contains('full') && !small_cups[x].nextElementSibling
 {
 x--;
 }
-
-
 
 small_cups.forEach((cup, idx) => {
 if(idx <= x)
@@ -34,7 +31,6 @@ update_cup();
 
 function update_cup(){
     const full_cups = document.querySelectorAll(".cup-small.full").length;
-
     
     const total_cups = small_cups.length;
 
