@@ -9,7 +9,6 @@
     --secondary-color: #fff;
 }
 
-
 html{
     transition: all 0.5s ease-in;
 }
@@ -33,7 +32,6 @@ body{
     height: 100vh;
     overflow: hidden;
 }
-
 
 .toggle{
     background-color: var(--primary-color);
@@ -60,13 +58,11 @@ body{
     align-items: center;
 }
 
-
 .clock{
     position: relative;
     width: 200px;
     height: 200px;
    }
-
 
 .needle{
     background-color: var(--primary-color);
@@ -105,7 +101,6 @@ transform: translate(-50%, -50%);
 border-radius: 50%;
 }
 
-
 .center-point::after{
     content: "";
     background-color: var(--secondary-color);
@@ -120,8 +115,8 @@ border-radius: 50%;
 
 .time{
     font-size: 60px;
-
 }
+
 .date{
 color: #aaa;
 font-size: 14px;
