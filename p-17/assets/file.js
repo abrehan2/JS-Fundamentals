@@ -8,24 +8,17 @@ const messages = [
 'Message Four',
 ]
 
-btn.addEventListener('click', () => Notification('Message'))
-
+btn.addEventListener('click', () => Notification('Message'));
 
 function Notification(x = null)
 {
     const notif = document.createElement('div')
     notif.classList.add('toast');
-
     notif.innerText = x ? x : random_message();
-
-    toasts.appendChild(notif);
-    
+    toasts.appendChild(notif);    
     setTimeout(() => {
         notif.remove(); // remove from dom
     }, 3000);
-
-
-
 }
 
 function random_message()
